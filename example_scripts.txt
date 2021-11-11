@@ -1,0 +1,3 @@
+CUDA_VISIBLE_DEVICES=0 nohup python3 dp_train.py --runname=cifar10_baseline_bs256_lr0.00006_noise1.1_gclip1_2000epoch --data=CIFAR10 --in_channels=3 --batch_size=256 --max_epoch=2000 --noise_multiplier=1.1 --g_clip=1 --lr=0.00006 --mode=naive --save_epoch=50&
+
+CUDA_VISIBLE_DEVICES=0 nohup python3 dp_train.py --runname=cifar10_smoothloss_sample10_radius20_bs256_lr0.00006_noise1.1_gclip1_2000epoch --data=CIFAR10 --in_channels=3 --batch_size=256 --max_epoch=2000 --noise_multiplier=1.1 --g_clip=1 --lr=0.00006 --mode=smooth_loss --smooth_loss_samples=10 --smooth_loss_radius=20.0 --save_epoch=50  &
