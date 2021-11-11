@@ -1,12 +1,15 @@
 # DPlis: Boosting Utility of Differentially Private Deep Learning via Randomized Smoothing
 
 This repository provides the PyTorch implementation of the paper [DPlis: Boosting Utility of Differentially Private Deep Learning via Randomized Smoothing](https://sciendo.com/article/10.2478/popets-2021-0065). 
+
 Examples can be found in `example_scripts.txt`. 
 
 ## Paper 
 **DPlis: Boosting Utility of Differentially Private Deep Learning via Randomized Smoothing**
 Wenxiao Wang, Tianhao Wang, Lun Wang, Nanqing Luo, Pan Zhou, Dawn Song, and Ruoxi Jia
+
 The 21st Privacy Enhancing Technologies Symposium (PETS), 2021
+
 open access: [arxiv](https://arxiv.org/abs/2103.01496); [sciendo](https://sciendo.com/article/10.2478/popets-2021-0065).
 
 
